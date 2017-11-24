@@ -1,6 +1,0 @@
-xrandr --output eDP1 --brightness 1
-yum --showduplicates list VirtualGL #vis tlgjengelige rpm pakker
-ls | wc -l #printer antall
-ping -c 5 vg.no
-sudo yum history list all
-sudo yum history info 26 27

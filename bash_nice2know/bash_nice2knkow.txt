@@ -1,0 +1,13 @@
+xrandr --output eDP1 --brightness 1
+yum --showduplicates list VirtualGL #vis tlgjengelige rpm pakker
+ls | wc -l #printer antall
+ping -c 5 vg.no
+sudo yum history list all
+sudo yum history info 26 27
+locate hosts.auto | grep jersey		#Finn ip adr til spesifikt prosjekt nanna.
+lspci | egrep 'VGA|3D'			#List skjermkort, hybrid.
+lsmod					# se moduler som er lasta inn av kjernen
+sudo dhclient enp2s0		 	#enable dhcp
+nvidia-smi				# viser prosesser som bruker nvidia gpu.
+
+rpm –qa | grep xxx #Sjekk installerte pakker.
