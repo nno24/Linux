@@ -1,0 +1,8 @@
+[] brukes i funksjonen test
+= string comparison ( character for character the same )
+-eq numerical comparison  eg.[ 001 -eq 1 ]
+[] er referanse til kommandoen test.
+$? holder exit status for forrige kjørte kommando. 0=TRUE, 1=FALSE
+indenting: innrykk i koden, for ordens skyld.
+if_elif: man kan ha så mange elif branches man vil, else til slutt er valgfri.:
+boolean operations: and eller or. &&/||
