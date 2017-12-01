@@ -1,0 +1,7 @@
+husk forskjell på -le og -lt. less or equal vs. less than
+kjekt å bruke while og until avgengig av scenario.
+
+"leave the towel on the line while it is not dry"
+"leave the towel on the lin until its dry"
+
+hvem er best ?
