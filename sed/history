@@ -1,0 +1,4 @@
+  329  echo  day | sed s/day/night/	#substitute day med night
+  332  echo Sunday | sed 's/day/night'  #Gjør akkurat det sammen, men med quotes. God regel å bruket det
+  337  sed 's/one/ONE/' <inputFile 	#bytter ut ordet one med ONE. NB: bare en gang per linje!!!
+cat inputFile | grep real | awk -F'm' '{print $4}'| sed 's/.$//'   #Printer verdien i sekunder real time ( awk: printer etter m: 0.0xxs, sed: tar bort s)

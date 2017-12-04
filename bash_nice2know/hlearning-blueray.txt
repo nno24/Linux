@@ -1,0 +1,7 @@
+  113  sudo mount /dev/sr0 /media/blueray/		#Monterer sr0 (blueray USB disk til mnt pkt
+  124  sudo tail -f /var/log/messages 			#Se hva som skjer nå man putter i en enhet
+  147  emacs /etc/fstab					#contains the necessary information to automate the process of mounting partitions
+  150  dmesg						#kernel ring buffer 
+  187  k3b						#kde brenneprogram 
+   40  lsblk
+   42  su -						#logg på som root
