@@ -11,3 +11,6 @@ sudo dhclient enp2s0		 	#enable dhcp
 nvidia-smi				# viser prosesser som bruker nvidia gpu.
 
 rpm –qa | grep xxx #Sjekk installerte pakker.
+
+df -T #view file system Type
+sudo dmidecode -i memory		#se installert minne

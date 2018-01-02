@@ -1,0 +1,1 @@
+sed -n "$x p" testfile   #printer linje nummber x i filen testfile

@@ -5,3 +5,17 @@ kjekt å bruke while og until avgengig av scenario.
 "leave the towel on the lin until its dry"
 
 hvem er best ?
+
+SUMMARY
+while do done
+Perform a set of commands while a test is true.
+until do done
+Perform a set of commands until a test is true.
+for do done
+Perform a set of commands for each item in a list.
+break
+Exit the currently running loop.
+continue
+Stop this iteration of the loop and begin the next iteration.
+select do done
+Display a simple menu system for selecting items from a list.
