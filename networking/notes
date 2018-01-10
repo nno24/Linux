@@ -1,0 +1,3 @@
+tcpdump	      #troubleshoot networking.
+tcpdump -c 10 #capture 10 packets
+tcpdump -c 10 -i wl0		#lytt på interface wl0

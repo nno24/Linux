@@ -14,3 +14,5 @@ rpm –qa | grep xxx #Sjekk installerte pakker.
 
 df -T #view file system Type
 sudo dmidecode -i memory		#se installert minne
+du -sh					#disk usage --> summary + human readable format of folder.
+Example: du -sh rpslog/
