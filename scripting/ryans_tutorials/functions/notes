@@ -1,0 +1,3 @@
+Always use local variables within functions. Use global variables as a last resort and consider if there is a better way to do it before using them.
+remember to set the "commmand" before when overriding. see override.sh
+as example

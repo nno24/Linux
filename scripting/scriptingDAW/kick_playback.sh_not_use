@@ -1,0 +1,13 @@
+#!/bin/bash
+
+kick_sample=$1
+repeats=$2
+counter=1
+
+while [ $counter -le $repeats ]
+do
+  aplay -d 2 $kick_sample
+#  sleep 1
+  ((counter++))
+done
+echo Done
