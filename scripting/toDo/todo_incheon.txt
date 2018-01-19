@@ -1,0 +1,3 @@
+lage setup på laptoper
+lage patchset disk på laptoper
+sjekk med ragnar om network monitoring skal settes opp på mottatt tecams på lave

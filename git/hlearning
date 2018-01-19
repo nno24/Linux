@@ -1,0 +1,30 @@
+   13  cdproj		#cd project --> må stå i git katalog
+   47  vi .gitmodules 	#må inn å endre etter å ha laga en ny submodule. se wiki.
+   49  vi .git/config 	#Setter som regel egne initialer
+   50  vi .git/modules/NOVAAirport/config 
+
+   #Leter gjennom alle submoduler og oppdaterer
+   51  git submodule foreach 'git checkout master; git pull'
+   #I dette tilfellet hadde vi noen lokale endringer i OSUpdates som ikke var nødvendig.. 
+   52  cd pragueASMGCS/
+   53  gs
+   54  git checkout origin
+   55  git checkout OSUpdates/NOVAConfigureNetwork OSUpdates/install.sh
+   57  git clean
+   58  git clean -f	#remove untracked files from the working tree
+   65   rm -r project/
+   66  gs
+
+#Pull regardless of local changes, but then add the local changes on top of that.
+  118  git stash
+  119  gs
+  120  git pull 
+  121  git pull --rebase
+  122  git whatchanged 
+  123  git pop
+  124  git stash pop 
+  125  gs
+  
+  130  vi .projectrc	#runcom --> run commands for project	 
+  134  cdmr		#cd makeroot --> må stå i git katalog
+  135  prepbinary.sh 	#script for å kompierer, pakke ned rpm filer og lage iso

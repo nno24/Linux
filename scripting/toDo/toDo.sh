@@ -1,7 +1,7 @@
 #!/bin/bash
 
 projects='Dubai Incheon'
-toDoLists='General Project'
+toDoLists='General Project Improvements'
 options='Add_toDo View_toDos Mark_Completed Exit'
 PS3='#? '
 
@@ -96,7 +96,12 @@ then
 	    echo "...Now select your option: "
 	    select_options
 	    break
-    fi
-  done
-fi
+     fi
+   done
+elif [ $toDoList == 'Improvements' ]
+    then
+      list="todo_improvements"
+      echo "...Now select your option: "
+      select_options
+   fi
 done

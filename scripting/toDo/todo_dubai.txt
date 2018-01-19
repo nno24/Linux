@@ -1,0 +1,7 @@
+sette opp tmers på lab
+teste tmers på lab --> se at virker med ny sw
+oppdatere tmm: vga output intelligent provisioning --> når man skal sette opp et nytt raid
+implementer target databse konvertering på sds --> test[D[D[D[[3~
+finn ut om lyd fungerer med G&D ekstendere på cwp
+oppdatere system log med korrekt serienummer --> gjelder RPS-3 blant annet
+1x dvi kabel til test systemet i dubai
